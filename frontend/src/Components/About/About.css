@@ -1,0 +1,15 @@
+
+.profile_pic2 img {
+  width: 85%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 5px solid #fff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.aboutSection{
+    background-color: #fdeaeab2;
+    padding: 20px;;
+}

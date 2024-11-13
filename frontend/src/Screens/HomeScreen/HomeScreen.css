@@ -1,7 +1,7 @@
 /* HomeScreen.css */
 
-.profile_pic img {
-  width: 60%;
+.profile_pic1 img {
+  width: 80%;
   height: auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -10,12 +10,6 @@
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* .container-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 20px;
-} */
 
 .allText {
   display: flex;

@@ -1,8 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
-import profilePicture from '../../assets/styles/profile1.jpeg';
+import profilePicture from '../../assets/profile1.jpeg';
 import './HomeScreen.css';
-import Project from '../../Components/Project/Project';
+import Project from '../../Components/Project/Project.jsx';
+import About from '../../Components/About/About.jsx'
 import projects from '../../projects';
 
 const HomeScreen = () => {
@@ -21,10 +22,10 @@ const HomeScreen = () => {
     <main>
       <Container className="container-1">
         <Row>
-          <Col md={6} className="profile_pic">
+          <Col md={12} lg={7} xl={6} className="profile_pic1">
             <Image src={profilePicture} alt="Profile Picture" fluid />
           </Col>
-          <Col md={6} className="allText">
+          <Col md={12} lg={5} xl={6} className="allText">
             <h1 className="text1">Hi, I'm Tatiana M. Kawaguti</h1>
             <h3 className="text2" id="typed-text">I am an aspiring Software Engineer</h3>
             <p className="text3">
@@ -33,7 +34,7 @@ const HomeScreen = () => {
               continue learning and growing in this field.
             </p>
             <div className="buttons">
-              <Button onClick={() => scrollToSection('about-me')}>About Me</Button>
+              <Button onClick={() => scrollToSection('projects')}>Projects</Button>
               <Button onClick={downloadCV}>Download CV</Button>
             </div>
           </Col>
@@ -60,8 +61,8 @@ const HomeScreen = () => {
         </Row>
 
         <div id="about-me">
-          <h2>About Me Section</h2>
-          {/* Replace with your <AboutMe /> component */}
+          <h2>About Me</h2>
+          <About/>
         </div>
 
         <div id="projects">
@@ -73,13 +74,6 @@ const HomeScreen = () => {
                 </Col>
               ))}
           </Row>
-          
-         
-        </div>
-
-        <div id="contact">
-          <h2>Contact Section</h2>
-          {/* Replace with your <Contact /> component */}
         </div>
       </Container>
     </main>
