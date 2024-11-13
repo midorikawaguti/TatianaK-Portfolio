@@ -2,7 +2,6 @@
 
 .profile_pic1 img {
   width: 80%;
-  height: auto;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 50px;
@@ -30,7 +29,7 @@
   font-size: 30px;
   color: #bc6262;
   text-align: center;
-  font-family: "Oooh Baby", serif;
+  font-family: "Dancing Script", serif;
 }
 
 .text3 {
@@ -40,15 +39,22 @@
   margin: 0px 50px 0px 20px;
 }
 
-.buttons {
+.homeScreenButtons {
   display: flex;
   gap: 20px;
   justify-content: center;
   margin-top: 20px;
 }
 
-button {
+.homeScreenButtons button {
   padding: 10px 20px;
   font-size: 16px;
   color: #fff;
+  background-color: #bc6262;
+  border-color:  #bc6262;
+}
+
+.homeScreenButtons button:hover {
+  background-color: #D9A5B3;
+  border-color:#D9A5B3 ;
 }
