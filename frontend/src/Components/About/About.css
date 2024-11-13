@@ -11,5 +11,11 @@
 
 .aboutSection{
     background-color: #fdeaeab2;
-    padding: 20px;;
+    padding: 40px;
+    margin-top: 50px;
+    color:#bc6262;
+}
+
+.aboutText{
+  color:black;
 }

@@ -7,16 +7,17 @@ const About = () => {
   return (
     <Container>
         <Row className='aboutSection'>
-            <Col sm={12} lg={9} xl={8}>
+            <h1>About Me</h1>
+            <Col sm={12} lg={9} xl={8} className='aboutText'>
                 <p class="text">
                 I'm currently on a journey of transitioning to a new career path. The past four
-                years were an incredible learning experience as a chemical process engineer. Through this role, I've developed
+                years were an incredible learning experience as a <strong>chemical process engineer.</strong> Through this role, I've developed
                 my analytical skills, learned various unit operations, calculations, and process flowcharts.
                 </p>
                 <p class="text">
                 In 2022, I followed my passion for technology and software engineering and decided to switch to the field of
-                software development. I moved to Canada to join the Software Engineering Technician program at Centennial
-                College.
+                software development. I moved to Canada to join the <strong>Software Engineering Technician program at Centennial
+                College</strong>.
                 </p>
                 <p class="text">
                 This program provided me with a comprehensive understanding of software engineering principles and practices.
@@ -27,8 +28,8 @@ const About = () => {
                 abilities but also demonstrated my knack for applying theoretical knowledge to real-world scenarios.
                 </p>
                 <p class="text">
-                As I transition into this new career path, I bring with me the analytical mindset and problem-solving
-                abilities of an engineer, combined with a newfound expertise in software development. I am eager to contribute
+                As I transition into this new career path, I bring with me the <strong>analytical mindset and problem-solving
+                abilities of an engineer, combined with a newfound expertise in software development.</strong> I am eager to contribute
                 to innovative projects and collaborate with dynamic teams to create impactful software solutions. I am excited
                 to see where this new path takes me and look forward to all the opportunities that lie ahead.
                 </p>
