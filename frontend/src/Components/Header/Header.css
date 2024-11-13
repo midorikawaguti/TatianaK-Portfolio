@@ -1,0 +1,40 @@
+/* Header.css */
+
+/* Header background */
+header .navbar {
+  background-color: #eee9ea; /* Rose Red */
+}
+
+/* Header.css */
+
+/* Apply Roboto to the brand name */
+.brand-name {
+  font-family: "Oooh Baby", serif;
+  font-size: 1.75rem;
+  font-weight: 1000;
+  color: #411010; 
+}
+
+/* Apply Playfair Display to the brand title */
+.brand-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.20rem;
+  color: #F49FB6; /* Blush Pink */
+}
+
+
+/* Nav links */
+.navbar-nav .nav-link {
+  font-family: 'Verdana, sans-serif';
+  font-size: 1.2rem;
+  color: #5c303c; /* Blush Pink */
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for nav links */
+.navbar-nav .nav-link:hover {
+  color: #D9A5B3; /* Dusty Rose */
+  background-color: #f0d9d7; /* Coral Pink */
+  padding: 0.5rem;
+  border-radius: 5px;
+}

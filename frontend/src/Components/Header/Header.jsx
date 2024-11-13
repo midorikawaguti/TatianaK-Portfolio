@@ -1,12 +1,17 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import './Header.css';
+import logo from '../../assets/Logo.jpg'
 
 const Header = () => {
   return (
     <header>
-      <Navbar bg="light" expand="lg" collapseOnSelect className="py-4"> {/* Use py-4 to increase header height */}
+      <Navbar expand="md" collapseOnSelect className="py-3">
         <Container>
-          <Navbar.Brand href="/">Tatiana Kawaguti</Navbar.Brand>
+          <Navbar.Brand href="/">
+            <span className="brand-name">Tatiana Kawaguti</span><br />
+            <span className="brand-title">Full Stack Developer</span>
+          </Navbar.Brand>
           <Nav className="justify-content-end fs-5">
             <Nav.Link href="#about">About Me</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
@@ -19,4 +24,3 @@ const Header = () => {
 };
 
 export default Header;
-

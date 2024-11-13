@@ -1,0 +1,60 @@
+/* HomeScreen.css */
+
+.profile_pic img {
+  width: 60%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  border: 5px solid #fff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* .container-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+} */
+
+.allText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.text1 {
+  font-size: 40px;
+  color: var(--darkColor);
+  text-align: center;
+  font-family: monospace;
+}
+
+.text2 {
+  font-size: 30px;
+  color: #bc6262;
+  text-align: center;
+  font-family: "Oooh Baby", serif;
+}
+
+.text3 {
+  font-size: 120%;
+  color: #0f1410;
+  text-align: left;
+  margin: 0px 50px 0px 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+}
