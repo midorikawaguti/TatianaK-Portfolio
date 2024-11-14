@@ -1,0 +1,11 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto; /* Center horizontally */
+}
+.carousel img {
+    height: auto;
+    width: 100%; /* Ensure it fills the carousel container */
+}
