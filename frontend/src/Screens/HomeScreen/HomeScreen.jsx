@@ -78,15 +78,15 @@ const HomeScreen = () => {
           </Col>
         </Row>
 
-        <Row id="about-me">
+        <Row className="about-me">
           <About />
         </Row>
 
-        <Row id="projects">
-          <h1>Projects Section</h1>
+        <Row className="projects">
+          <h1>Projects</h1>
           <Row>
             {projects.map((project) => (
-              <Col sm={12} md={6} lg={4} xl={3} key={project._id}>
+              <Col sm={12} md={6} lg={4} xl={4} key={project._id}>
                 <Project project={project} />
               </Col>
             ))}

@@ -8,7 +8,7 @@ const About = () => {
     <Container>
         <Row className='aboutSection'>
             <h1>About Me</h1>
-            <Col sm={12} lg={9} xl={8} className='aboutText'>
+            <Col sm={12} md={12} lg={12} xl={7} className='aboutText'>
                 <p class="text">
                 I'm currently on a journey of transitioning to a new career path. The past four
                 years were an incredible learning experience as a <strong>chemical process engineer.</strong> Through this role, I've developed
@@ -34,9 +34,10 @@ const About = () => {
                 to see where this new path takes me and look forward to all the opportunities that lie ahead.
                 </p>
             </Col>
-            <Col sm={12} md={8} lg={6} xl={4} className='profile_pic2'>
-                <Image src={profilePicture2} alt="Profile Picture" fluid />
-            </Col>
+           <Col sm={12} md={8} lg={8} xl={5} className="profile_pic2 d-flex justify-content-center mx-auto">
+          <Image src={profilePicture2} alt="Profile Picture" fluid />
+          </Col>
+
 
         </Row>
       

@@ -1,9 +1,17 @@
 .project-card {
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    width: auto;
+    height: 380px;
 }
 
 .project-card:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+.project-image {
+    width: 65%;
+    height: auto;
+    display: block;  /* Ensures it centers within the parent anchor tag */
+    margin: 0 auto;  /* Centers the image horizontally */
+}
