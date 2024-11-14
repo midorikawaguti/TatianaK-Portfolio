@@ -5,9 +5,16 @@ import Footer from './Components/Footer';
 import { Outlet } from 'react-router-dom';
 
 const App = () => {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div>
-      <Header/>
+      <Header scrollToSection={scrollToSection}/>
       <main className='py-3'>
         <Container>
           <Outlet/>

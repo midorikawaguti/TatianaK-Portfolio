@@ -1,7 +1,7 @@
 .project-card {
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     width: auto;
-    height: 380px;
+    height: 385px;
 }
 
 .project-card:hover {

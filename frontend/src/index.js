@@ -7,11 +7,13 @@ import reportWebVitals from './reportWebVitals';
 //import 'bootstrap/dist/css/bootstrap.min.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom';
 import HomeScreen from './Screens/HomeScreen/HomeScreen';
+import ProjectScreen from './Screens/ProjectScreen/ProjectScreen';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App/>}>
       <Route index={true} path="/" element={<HomeScreen/>}/>
+      <Route path='/project/:id' element={<ProjectScreen/>}/>
     </Route>
   )
 )

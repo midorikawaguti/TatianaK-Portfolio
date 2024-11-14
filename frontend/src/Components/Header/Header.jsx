@@ -2,10 +2,10 @@ import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import './Header.css';
 
-const Header = () => {
+const Header = ({scrollToSection}) => {
   return (
     <header>
-      <Navbar expand="md" collapseOnSelect className="py-2 fixed-top">
+      <Navbar expand="md" collapseOnSelect >
         <Container>
           <Navbar.Brand href="/">
             <span className="brand-name">Tatiana Kawaguti</span>
@@ -13,8 +13,8 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basics-navibar-nav"/>
           <Navbar.Collapse className="justify-content-end">
             <Nav className="ms-auto">
-              <Nav.Link href="/about">About Me</Nav.Link>
-              <Nav.Link href="/projects">Projects</Nav.Link>
+              <Nav.Link onClick={() => scrollToSection('about')}>About Me</Nav.Link>
+              <Nav.Link onClick={() => scrollToSection('projects')}>Projects</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>

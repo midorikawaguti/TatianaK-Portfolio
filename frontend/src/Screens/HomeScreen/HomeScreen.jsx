@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import profilePicture from '../../assets/profile1.jpeg';
 import './HomeScreen.css';
@@ -9,12 +10,7 @@ import { ReactTyped as Typed } from 'react-typed';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const HomeScreen = () => {
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  
 
   const downloadCV = () => {
   const link = document.createElement("a");
@@ -54,22 +50,22 @@ const HomeScreen = () => {
               continue learning and growing in this field.
             </p>
             <div className="homeScreenButtons">
-              <Button onClick={() => scrollToSection('projects')}>Projects</Button>
-              <Button onClick={downloadCV}>Download CV</Button>
+              {/* <Button onClick={() => scrollToSection('projects')}>Projects</Button> */}
+              <Button onClick={downloadCV}>Download my Resume</Button>
             </div>
           </Col>
         </Row>
 
         <Row className="container-2">
           <Col sm={4} className="text-center">
-            <a href="https://github.com/midorikawaguti" target="_blank" rel="noopener noreferrer">
+            <Link to="https://github.com/midorikawaguti" target="_blank" rel="noopener noreferrer">
               <FaGithub size={32} />
-            </a>
+            </Link>
           </Col>
           <Col  sm={4} className="text-center">
-            <a href="https://www.linkedin.com/in/tatiana-midori-uemura-kawaguti-6865b5120/" target="_blank" rel="noopener noreferrer">
+            <Link to="https://www.linkedin.com/in/tatiana-midori-uemura-kawaguti-6865b5120/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin size={32} />
-            </a>
+            </Link>
           </Col>
           <Col sm={4} className="text-center">
             <a href="mailto:midori.kawaguti@gmail.com">
@@ -79,11 +75,13 @@ const HomeScreen = () => {
         </Row>
 
         <Row className="about-me">
-          <About />
+          <div id='about'>
+              <About />
+          </div>
         </Row>
 
         <Row className="projects">
-          <h1>Projects</h1>
+          <h1 id='projects'>Projects</h1>
           <Row>
             {projects.map((project) => (
               <Col sm={12} md={6} lg={4} xl={4} key={project._id}>
