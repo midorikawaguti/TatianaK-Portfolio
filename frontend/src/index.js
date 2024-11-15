@@ -12,13 +12,24 @@ import ContactScreen from './Screens/ContactScreen/ContactScreen';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<App/>}>
-      <Route index={true} path="/" element={<HomeScreen/>}/>
-      <Route path='/project/:id' element={<ProjectScreen/>}/>
-      <Route path='/contact' element={<ContactScreen/>}/>
+    <Route path="/" element={<App />}>
+      <Route index={true} path="/" element={<HomeScreen />} />
+      <Route path="/project/:id" element={<ProjectScreen />} />
+      <Route path="/contact" element={<ContactScreen />} />
     </Route>
-  )
-)
+  ),
+  {
+    future: {
+      v7_skipActionErrorRevalidation: true, // Opt into new revalidation behavior
+      v7_partialHydration: true, // Opt into new hydration behavior
+      v7_normalizeFormMethod: true, // Enable normalization of formMethod
+      v7_fetcherPersist: true, // Persistent fetcher state
+      v7_relativeSplatPath: true, // Adjust splat route paths to be relative
+      v7_startTransition: true, // Enable state updates with React.startTransition
+    },
+  }
+);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

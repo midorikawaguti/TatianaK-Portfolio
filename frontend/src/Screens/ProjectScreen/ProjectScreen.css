@@ -9,3 +9,23 @@
     height: auto;
     width: 100%; /* Ensure it fills the carousel container */
 }
+
+.websiteButton {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.websiteButton button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #bc6262;
+  border-color:  #bc6262;
+}
+
+.websiteButton button:hover {
+  background-color: #D9A5B3;
+  border-color:#D9A5B3 ;
+}

@@ -44,14 +44,14 @@
   margin: 0px 50px 0px 20px;
 }
 
-.homeScreenButton {
+.CVbutton {
   display: flex;
   gap: 20px;
   justify-content: center;
   margin-top: 20px;
 }
 
-.homeScreenButton button {
+.CVbutton button {
   padding: 10px 20px;
   font-size: 16px;
   color: #fff;
@@ -59,7 +59,7 @@
   border-color:  #bc6262;
 }
 
-.homeScreenButtons button:hover {
+.CVbutton button:hover {
   background-color: #D9A5B3;
   border-color:#D9A5B3 ;
 }
