@@ -44,14 +44,14 @@
   margin: 0px 50px 0px 20px;
 }
 
-.homeScreenButtons {
+.homeScreenButton {
   display: flex;
   gap: 20px;
   justify-content: center;
   margin-top: 20px;
 }
 
-.homeScreenButtons button {
+.homeScreenButton button {
   padding: 10px 20px;
   font-size: 16px;
   color: #fff;

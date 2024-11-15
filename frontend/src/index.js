@@ -8,12 +8,14 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom';
 import HomeScreen from './Screens/HomeScreen/HomeScreen';
 import ProjectScreen from './Screens/ProjectScreen/ProjectScreen';
+import ContactScreen from './Screens/ContactScreen/ContactScreen';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App/>}>
       <Route index={true} path="/" element={<HomeScreen/>}/>
       <Route path='/project/:id' element={<ProjectScreen/>}/>
+      <Route path='/contact' element={<ContactScreen/>}/>
     </Route>
   )
 )

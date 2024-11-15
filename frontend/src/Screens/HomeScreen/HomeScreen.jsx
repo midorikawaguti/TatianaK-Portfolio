@@ -49,8 +49,7 @@ const HomeScreen = () => {
               I believe in the positive impact that technological tools can have, which motivates me to
               continue learning and growing in this field.
             </p>
-            <div className="homeScreenButtons">
-              {/* <Button onClick={() => scrollToSection('projects')}>Projects</Button> */}
+            <div className="homeScreenButton">
               <Button onClick={downloadCV}>Download my Resume</Button>
             </div>
           </Col>
