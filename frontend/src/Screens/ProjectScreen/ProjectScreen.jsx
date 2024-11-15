@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import projects from "../../projects";
-import { Row, Col, ListGroup, Button} from 'react-bootstrap';
+import { Row, Col, ListGroup} from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import { useState } from "react";
 import './ProjectScreen.css';
@@ -23,21 +23,21 @@ const ProjectScreen = () =>{
         <Row className="justify-content-center">
   <Carousel activeIndex={index} onSelect={handleSelect} className="carousel">
     <Carousel.Item>
-      <img src={project.imageCover} alt="imageExample" />
+      <img src={project.imageUrl[0]} alt={project.name} />
       <Carousel.Caption>
         <h3>{project.name}</h3>
       </Carousel.Caption>
     </Carousel.Item>
 
     <Carousel.Item>
-      <img src={project.imageCover} alt="imageExample" />
+      <img src={project.imageUrl[1]} alt={project.name}  />
       <Carousel.Caption>
         <h3>{project.name}</h3>
       </Carousel.Caption>
     </Carousel.Item>
 
     <Carousel.Item>
-      <img src={project.imageCover} alt="imageExample" />
+      <img src={project.imageUrl[2]} alt={project.name} />
       <Carousel.Caption>
         <h3>{project.name}</h3>
       </Carousel.Caption>
@@ -49,9 +49,10 @@ const ProjectScreen = () =>{
   <Col md={12}>
     <ListGroup variant="flush">
       <ListGroup.Item>
-        <h3>{project.description}</h3>
+        <h4>{project.description}</h4>
       </ListGroup.Item>
       <ListGroup.Item>
+        <h3>App Overview:</h3>
         {project.details.map((detail, index) => (
           <Col key={index} xs="auto" className="mb-1">
             <ul>
@@ -77,7 +78,7 @@ const ProjectScreen = () =>{
     </ListGroup>
     <div className="websiteButton">
       <a
-        href="https://github.com/midorikawaguti"
+        href={project.projectURL}
         target="_blank"
         rel="noopener noreferrer"
         className="btn btn-primary"

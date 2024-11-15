@@ -6,7 +6,7 @@
     margin: 0 auto; /* Center horizontally */
 }
 .carousel img {
-    height: auto;
+    height: 400px;
     width: 100%; /* Ensure it fills the carousel container */
 }
 
