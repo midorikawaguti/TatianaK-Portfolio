@@ -1,10 +1,15 @@
 import React from 'react'
-import {Row, Col} from 'react-bootstrap';
+import {Row, Col, Button} from 'react-bootstrap';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { useOutletContext } from 'react-router-dom';
 
 const ContactScreen = () => {
+
+  const { downloadCV } = useOutletContext();
+
   return (
+    
     <>
     <h1>Get In Touch</h1>
        <Row className="container-2">
@@ -23,6 +28,11 @@ const ContactScreen = () => {
               <FaEnvelope size={32} />
             </a>
           </Col>
+        </Row>
+        <Row>
+            <div className="homeScreenButton">
+              <Button onClick={downloadCV}>Download my Resume</Button>
+            </div>
         </Row>
       
     </>

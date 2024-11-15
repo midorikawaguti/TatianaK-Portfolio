@@ -8,20 +8,11 @@ import About from '../../Components/About/About.jsx';
 import projects from '../../projects';
 import { ReactTyped as Typed } from 'react-typed';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { useOutletContext } from 'react-router-dom';
 
 const HomeScreen = () => {
-  
 
-  const downloadCV = () => {
-  const link = document.createElement("a");
-  link.href = "https://drive.google.com/file/d/1htVIzWOqoIWelq5NEkHVowjuJBdcfZLQ/view?usp=drive_link"; 
-  link.target = "_blank"; // Open in a new tab
-  link.download = "Tatiana_Kawaguti_Resume"; 
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-};
-
+  const { downloadCV } = useOutletContext();
 
   return (
     <>
