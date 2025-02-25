@@ -23,7 +23,7 @@ const HomeScreen = () => {
             <h1 className="text1">Hi, I'm Tatiana M. Kawaguti</h1>
             <h3 className="text2">
               <Typed
-                strings={['A Full Stack Developer', 'A creative coder', 'A problem solver']}
+                strings={['A Data Enthusiastic', 'Insight-Driven Analyst', 'A problem solver']}
                 typeSpeed={180}
                 backSpeed={70}
                 loop
