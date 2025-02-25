@@ -12,20 +12,22 @@ const About = () => {
                 <p className="text">
                     I'm currently on a journey of transitioning to a new career path. The past four
                     years were an incredible learning experience as a <strong>chemical process engineer.</strong> Through this role, I've developed
-                    my analytical skills, data-driven mindset, learned various unit operations, calculations, and process flowcharts.
+                    my analytical skills, data-driven mindset, learned various unit operations, calculations, and process flowcharts optimization.
                 </p>
                 <p className="text">
                     In 2022, I followed my passion for technology and software engineering and decided to switch to the field of
                     software development. I moved to Canada to join the <strong>Software Engineering Technician program at Centennial
-                    College</strong>.
+                    College</strong>.This program provided me with a comprehensive understanding of software engineering principles and hands-on experience.
                 </p>
                 <p className="text">
-                    This program provided me with a comprehensive understanding of software engineering principles and hands-on experience.
+                    To further strengthen my expertise, I completed the <strong>Data Science certification at the University of Toronto.</strong>
+                    This program deepened my knowledge of data analysis, machine learning, and statistical modeling, equipping me with essential 
+                    skills to work with large datasets and derive meaningful insights
                 </p>
                 <p className="text">
-                    After completing my formal education, I've been on an exciting learning journey, working on personal projects
-                    that showcase my skills in software development and data analysis. These projects have not only helped me enhance my technical
-                    abilities but also demonstrated my knack for applying theoretical knowledge to real-world scenarios.
+                    Since completing my formal education, I've been actively working on personal projects
+                    that showcase my skills in software development and data analysis. These projects have allowed me to 
+                    enhance my technical abilities and apply data-driven decision-making to solve real-world problems.
                 </p>
                 <p className="text">
                     As I transition into this new career path, I bring with me the <strong>analytical mindset and problem-solving
