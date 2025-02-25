@@ -33,7 +33,7 @@ const App = () => {
     const downloadCV = () => {
       console.log('download CV')
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/1htVIzWOqoIWelq5NEkHVowjuJBdcfZLQ/view?usp=drive_link"; 
+    link.href = "https://drive.google.com/file/d/18_pLawtBuDfPGmlB59AgDDe5a34t4U_U/view?usp=sharing"; 
     link.target = "_blank"; // Open in a new tab
     link.download = "Tatiana_Kawaguti_Resume"; 
     document.body.appendChild(link);

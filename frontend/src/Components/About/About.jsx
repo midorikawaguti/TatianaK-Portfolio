@@ -11,8 +11,8 @@ const About = () => {
             <Col sm={12} md={12} lg={12} xl={7} className='aboutText'>
                 <p className="text">
                     I'm currently on a journey of transitioning to a new career path. The past four
-                    years were an incredible learning experience as a <strong>chemical process engineer.</strong> Through this role, I've developed
-                    my analytical skills, data-driven mindset, learned various unit operations, calculations, and process flowcharts optimization.
+                    years were an incredible learning experience as a chemical process engineer.Through this role, I've developed
+                    my <strong>analytical skills, data-driven mindset, learned various unit operations, calculations, and process flowcharts optimization.</strong> 
                 </p>
                 <p className="text">
                     In 2022, I followed my passion for technology and software engineering and decided to switch to the field of
@@ -26,14 +26,14 @@ const About = () => {
                 </p>
                 <p className="text">
                     Since completing my formal education, I've been actively working on personal projects
-                    that showcase my skills in software development and data analysis. These projects have allowed me to 
+                    that <strong> showcase my skills in software development and data analysis.</strong> These projects have allowed me to 
                     enhance my technical abilities and apply data-driven decision-making to solve real-world problems.
                 </p>
                 <p className="text">
                     As I transition into this new career path, I bring with me the <strong>analytical mindset and problem-solving
-                    abilities of an engineer, combined with a newfound expertise in software development.</strong> I am eager to contribute
-                    to innovative projects and collaborate with dynamic teams to create impactful software solutions. I am excited
-                    to see where this new path takes me and look forward to all the opportunities that lie ahead.
+                    abilities of an engineer, combined with a newfound expertise in software development and data science skills. </strong> 
+                    I am eager to contribute to innovative projects and collaborate with dynamic teams to create impactful software solutions. 
+                    I am excited to see where this new path takes me and look forward to all the opportunities that lie ahead.
                 </p>
             </Col>
            <Col sm={12} md={8} lg={8} xl={5} className="profile_pic2 d-flex justify-content-center mx-auto">

@@ -47,7 +47,7 @@ const HomeScreen = () => {
             </a>
           </Col>
           <Col sm={4} className="text-center">
-            <a href="https://www.linkedin.com/in/tatiana-midori-uemura-kawaguti-6865b5120/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/tatiana-kawaguti/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin size={32} />
             </a>
           </Col>
