@@ -12,7 +12,7 @@ const About = () => {
                 <p className="text">
                     I'm currently on a journey of transitioning to a new career path. The past four
                     years were an incredible learning experience as a <strong>chemical process engineer.</strong> Through this role, I've developed
-                    my analytical skills, learned various unit operations, calculations, and process flowcharts.
+                    my analytical skills, data-driven mindset, learned various unit operations, calculations, and process flowcharts.
                 </p>
                 <p className="text">
                     In 2022, I followed my passion for technology and software engineering and decided to switch to the field of
@@ -20,11 +20,11 @@ const About = () => {
                     College</strong>.
                 </p>
                 <p className="text">
-                    This program provided me with a comprehensive understanding of software engineering principles and practices.
+                    This program provided me with a comprehensive understanding of software engineering principles and hands-on experience.
                 </p>
                 <p className="text">
                     After completing my formal education, I've been on an exciting learning journey, working on personal projects
-                    that showcase my skills in software development. These projects have not only helped me enhance my technical
+                    that showcase my skills in software development and data analysis. These projects have not only helped me enhance my technical
                     abilities but also demonstrated my knack for applying theoretical knowledge to real-world scenarios.
                 </p>
                 <p className="text">
